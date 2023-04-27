@@ -1,0 +1,21 @@
+randomseed  0
+offset      2 1
+
+BarrierLine 0 0 6.5 0
+Goal        6.5 0 8.5 0
+BarrierLine 8.5 0 15 0
+
+BarrierLine 15 0 15 5.25
+Goal        15 5.25 15 6.75
+BarrierLine 15 6.75 15 12
+
+BarrierLine 0 0 0 12
+
+BarrierLine 0 12 15 12
+
+# number of people, x0, y0, x1, y1, ...
+##PeopleRand  50 1 1 14 11
+
+# delta_x, delta_y, x0, y0, x1, y1, ...
+PeopleGrid  1.5 1.2 1 1 14 11
+#PeopleGrid  1.2 1.1 7 1 14 6 7 11 1 7
